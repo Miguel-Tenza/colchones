@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="../../css/reguser.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Usuario</h2>
+        <div class="form-group">
+            <label for="nombre">Email:</label>
+            <input type="text" id="edtemail" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="correo">Confirmar Email:</label>
+            <input type="email" id="edtconfemail" name="correo" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="edtpassword" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm_password">Confirmar Contraseña:</label>
+            <input type="password" id="edtconf_password" name="confirm_password" required>
+        </div>
+        <button type="button" id="btnsave">Registrar</button>
+        <br>
+        <input type="button" id="btnreturn" value="Regresar" class="btn btn-secondary" onclick="window.location.href='home.html';">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script type="module" src="../../Controllers/admin/reguser.js"></script>
+
+</body>
+</html>
+
